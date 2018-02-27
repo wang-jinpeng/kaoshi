@@ -1,0 +1,28 @@
+.header{
+	background: deepskyblue;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100vw;
+	height: 10vh;
+	color: #fff;
+	font-size: 0.32rem;
+}
+.jiantou{
+	margin-left: 2vw;
+	font-weight: 700;
+	font-size: 0.34rem;
+}
+.header i{
+	float: left;
+	font-size: 0.32rem;
+
+}
+
+#left{
+	margin-left: 5vw;
+}
+#right{
+	float: right;
+	margin-right:5vw ;
+}

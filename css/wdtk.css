@@ -1,0 +1,33 @@
+.box{
+font-size: 0.3rem;
+    padding: 3vw 7vw;
+}
+.box span{
+    display: block;
+}
+.box i{
+    margin-left: 3vw;
+}
+.box p{
+    margin-left: 3vw;
+}
+.timu{
+    padding: 5vw 1vw;
+    border-bottom: 1px solid #cccccc;
+}
+.anniu {
+    margin-left: 2vw;
+    width: 8vw;
+    height: 4vw;
+    float: right;
+    border-radius: 1vw;
+    font-size: 0.2rem;
+}
+.xiugai{
+    background: deepskyblue;
+    text-align: center;
+}
+.delete{
+    background: red;
+    text-align: center;
+}

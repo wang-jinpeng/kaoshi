@@ -1,0 +1,78 @@
+.cj-info{
+	width: 100vw;
+	height: 50vw;
+	background: #5BB8FF;
+	padding:5vw 0 0;
+}
+.yuan{
+	width: 35vw;
+	height: 35vw;
+	margin: 0 auto;
+}
+.cj-info1{
+	width: 100vw;
+	height: 15vw;
+	box-sizing: border-box;
+	padding: 0 8vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 0.34rem;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+.cj-info1 span{
+	color: #FBE074;
+}
+.jxdt{
+	width: 70vw;
+	height: 7vh;
+	margin: 3vh auto;
+	background: #5BB8FF;
+	border-radius: 10vw;
+	text-align: center;
+	line-height: 7vh;
+	color: #fff;
+	font-size: 0.38rem;
+}
+.qita{
+	width: 90vw;
+	margin: 0 auto;
+}
+.qita ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.30rem;
+}
+.qita li{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-right:1px solid #ccc;
+	padding: 0 3vw 0 0;
+}
+.qita li:last-child{
+	border: none;
+}
+.qita i{
+	font-size: 0.46rem;
+	color: #5BB8FF;
+}
+.qita li span,.qita em{
+	display: block;
+}
+.qita em{
+	color: #888;
+}
+.qita .con{
+	margin-left: 8px;
+}
+.refresh{
+	float: right;
+	font-size: 0.36rem;
+	margin-right: 6vw;
+	margin-top: 5vw;
+	color: #5BB8FF;
+	letter-spacing: 1px;
+}

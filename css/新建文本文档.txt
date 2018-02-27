@@ -1,0 +1,30 @@
+.input{
+    color: #cccccc;
+    text-align: center;
+    width: 90vw;
+    margin-left: 4.5vw;
+    height: 4vh;
+    border-radius: 1vw;
+    border: 1px solid #cccccc;
+}
+.list{
+    width: 100vw;
+    margin: 0 auto;
+    margin-top: 5vh;
+}
+.list li{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 5vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #545454;
+    font-size: 0.3rem;
+}
+.list li{
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 7vh;
+}

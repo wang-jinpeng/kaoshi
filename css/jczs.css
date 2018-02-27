@@ -1,0 +1,38 @@
+.list{
+	background: #fff;
+	width: 100vw;
+}
+.list li{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 2vw 5vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid #F3F3F3;
+}
+.list-left{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.yuan{
+	width: 15vw;
+	height: 15vw;
+}
+.list-info{
+	margin-left: 10px;
+}
+.list-info p:first-child{
+	font-size: 0.3rem;
+	color: #000;
+	margin-bottom: 2px;
+}
+.list-info p:last-child{
+	font-size: 0.3rem;
+	color: #ccc;
+}
+.list-right{
+	font-size: 0.28rem;
+	color: #ccc;
+}

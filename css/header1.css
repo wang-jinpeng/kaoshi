@@ -1,0 +1,25 @@
+.header{
+	width: 100vw;
+	box-sizing:border-box;
+	padding: 0 5vw;
+	text-align: center;
+	height: 7vh;
+	line-height: 7vh;
+	font-size: 0.30rem;
+	background: #5bb8ff;
+	color: #fff;
+}
+.header i{
+	float: left;
+	font-size: 0.32rem;
+}
+.tk{
+	width: 11vw;
+	height: 4vh;
+	border: 1px solid #fff;
+	line-height: 4vh;
+	text-align: center;
+	float: right;
+	margin-top: 1.5vh;
+	border-radius: 3px;
+}

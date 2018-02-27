@@ -1,0 +1,64 @@
+.title ul{
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+}
+.title ul li{
+    border-bottom: 1px solid #cccccc;
+    font-size: 0.3rem;
+    width: 33.3vw;
+    text-align: center;
+    line-height: 6vh;
+}
+.title ul li:first-child{
+    color: deepskyblue;
+    border-bottom-color: deepskyblue;
+}
+.list{
+    width: 100vw;
+    margin: 0 auto;
+}
+.list li{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 5vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #545454;
+    font-size: 0.3rem;
+}
+.list li{
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    height: 7vh;
+}
+/*错题*/
+
+.biaoti{
+    margin: 0 auto;
+    width: 30vw;
+    height: 4vh;
+    background: #ffffff;
+    border-radius: 4px;
+}
+.biaoti .left{
+    float: left;
+    color: deepskyblue;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 4vh;
+    width: 50%;
+}
+.biaoti .right{
+    width: 48%;
+    float: left;
+    color: #fff;
+    background: deepskyblue;
+    font-size: 0.3rem;
+    text-align: center;
+    height: 3.4vh;
+    line-height: 3.4vh;
+    margin-top: 0.3vh;
+}

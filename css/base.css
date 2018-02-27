@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-style: normal;
+	font-family: "微软雅黑" sans-serif "宋体";
+}
+a{
+	text-decoration:none;
+	color:#666;
+
+}
+img{
+	border:none;
+}
+@font-face {
+	font-family: 'iconfont';  /* project id 570907 */
+	src: url('//at.alicdn.com/t/font_570907_cbj6cprrqjqt1emi.eot ');
+	src: url('//at.alicdn.com/t/font_570907_cbj6cprrqjqt1emi.eot?#iefix ') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_570907_cbj6cprrqjqt1emi.woff ') format('woff'),
+	url('//at.alicdn.com/t/font_570907_cbj6cprrqjqt1emi.ttf ') format('truetype'),
+	url('//at.alicdn.com/t/font_570907_cbj6cprrqjqt1emi.svg#iconfont ') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}

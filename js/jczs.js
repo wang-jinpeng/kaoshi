@@ -1,0 +1,25 @@
+let yuan=document.querySelector(".yuan");
+let canvas=document.querySelectorAll("canvas");
+canvas.forEach(function(val,index){
+	let ctx=val.getContext("2d");
+	val.width=yuan.offsetWidth;
+	val.height=yuan.offsetHeight;
+	ctx.beginPath();
+	ctx.arc(val.offsetWidth/2,val.offsetHeight/2,val.offsetWidth/2-2,0,2*Math.PI);
+	ctx.strokeStyle="#F3F3F3";
+	ctx.lineWidth=3;
+	ctx.stroke();
+	ctx.closePath();
+	ctx.beginPath();
+	ctx.arc(val.offsetWidth/2,val.offsetHeight/2,val.offsetWidth/2-2,-Math.PI/2,Math.PI);
+	ctx.strokeStyle="#2CB9FF";
+	ctx.lineWidth=3;
+	ctx.lineCap="round";
+	ctx.stroke();
+	ctx.closePath();
+	ctx.textAlign='center';
+	ctx.textBaseline="middle";
+	ctx.fillStyle="#2CB9FF";
+	ctx.fillText("0%",val.offsetWidth/2,val.offsetWidth/2-5);
+	ctx.fillText("正确率",val.offsetWidth/2,val.offsetWidth/2+5);
+});
